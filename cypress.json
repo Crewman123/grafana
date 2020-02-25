@@ -1,0 +1,9 @@
+{
+  "fileServerFolder": "./cypress",
+  "integrationFolder": "../../public/e2e-tests/integration",
+  "screenshotsFolder": "../../public/e2e-tests/screenShots",
+  "trashAssetsBeforeRuns": false,
+  "videosFolder": "../../public/e2e-tests/videos",
+  "viewportHeight": 1080,
+  "viewportWidth": 1920
+}
