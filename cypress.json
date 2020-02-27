@@ -1,4 +1,9 @@
 {
+  "env": {
+    "BASE_URL": "$BASE_URL",
+    "CIRCLE_SHA1": "$CIRCLE_SHA1",
+    "SLOWMO": "$SLOWMO"
+  },
   "fileServerFolder": "./cypress",
   "integrationFolder": "../../public/e2e-tests/integration",
   "screenshotsFolder": "../../public/e2e-tests/screenShots",
