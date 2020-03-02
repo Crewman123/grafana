@@ -28,13 +28,13 @@ export default () => {
     .command('open')
     .description('runs tests within the interactive GUI')
     .option(configOption, configDescription)
-    .action(() => cypress('open'));
+    .action((): any => cypress('open'));
 
   program
     .command('run')
     .description('runs tests from the CLI without the GUI')
     .option(configOption, configDescription)
-    .action(() => cypress('run'));
+    .action((): any => cypress('run'));
 
   program.parse(process.argv);
 };
